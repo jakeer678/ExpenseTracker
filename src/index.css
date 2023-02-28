@@ -1,0 +1,50 @@
+body {
+    background-color: aqua;
+}
+
+#root {
+    text-align: center;
+    margin: 100px;
+}
+.income {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    
+}
+#money-plus {
+    color: green;
+    font-weight: 800;
+    font-size: 30px;
+}
+#money-minus {
+    color: red;
+    font-weight: 800;
+    font-size: 30px;
+
+}
+.balance {
+    text-align: left;
+}
+.history {
+    text-align: left;
+}
+.value {
+    text-align: right;
+}
+
+.list {
+    background-color: white;
+    height: 80px;
+    
+        list-style-type: none;
+
+}
+
+.minus {
+  color: red;
+}
+.plus {
+    color: green;
+}
